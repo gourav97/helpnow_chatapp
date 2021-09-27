@@ -1,0 +1,84 @@
+*{
+  margin : 0
+}
+
+body{
+  font-family : -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.App{
+  height: 100vh;
+  background-color: #dadbd3;
+  display: grid;
+  place-items: center;
+}
+
+.app_header{
+
+    height: 10vh; 
+    width: 100vw;
+    background-color: #128C7E;
+    box-shadow: -1px 4px 20px -6px #000;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.img1{
+  padding: 20px 0px 10px 20px;
+
+}
+
+.app_headerInfo{
+ 
+  margin-left: 5px;
+  margin-bottom: 10px;
+  padding: 20px 10px 20px 20px;
+}
+
+.app_left{
+  display: flex;
+
+}
+
+.app_headerInfo h3{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+
+.app_right{
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-between;
+
+  
+
+}
+
+.app_right svg{
+  font-size: 18px;
+  color: white;
+  margin-left: 30px;
+  align-items: center;
+}
+
+.app_right p{
+  font-weight: normal;
+  color: white;
+  margin-right: 10px;
+  font-size:px;
+}
+
+
+.app__body{
+  height:90vh;
+  width: 100vw;
+  background-color: #ededed ;
+ 
+  display: flex;
+}
+
